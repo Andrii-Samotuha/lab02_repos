@@ -15,8 +15,8 @@ int main()
 	cout << "Pleasy Enter a="; cin >> a;
 	z1 = cos(a) + cos(2 * a) + cos(6 * a) + cos(7 * a);
 	z2 = 4 * cos(a / 2) * cos((5.0 / 2) * a) * cos(4 * a);
-	cout << "z1=" << z1 <<'\n';
-	cout << "z2=" << z2; 
+	cout << "Result z1=" << z1 <<'\n';
+	cout << "Result z2=" << z2; 
 
 	return 0;
 
